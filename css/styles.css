@@ -88,10 +88,11 @@ a {
     display: flex;
     gap: 40px;
     padding-right: 332px;
-    padding: 24px 0;
 }
 
-.header-menu-item {}
+.header-menu-item {
+    padding: 24px 0;
+}
 
 .header-menu-link {
     color: #2E2F42;
@@ -115,6 +116,7 @@ a {
     display: flex;
     gap: 40px;
     margin-left: auto;
+    padding: 24px 0;
 }
 
 .header-address-item {}
