@@ -55,6 +55,23 @@ a {
 
 /**========================header==============================*/
 
+.header {
+    border-bottom: 1px solid #E7E9FC;
+    background: #FFF;
+    padding: 24px 0;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+}
+
+.header-menu {
+    display: flex;
+    gap: 40px;
+    padding-right: 332px;
+}
+
 .header-logo {
     color: #4D5AE5;
     font-family: "Raleway", sans-serif;
@@ -72,24 +89,6 @@ a {
 
 .header-container {
     display: flex;
-    padding-top: 24px;
-    padding-bottom: 24px;
-}
-
-.header {
-    border-bottom: 1px solid #E7E9FC;
-    background: #FFF;
-}
-
-.header-nav {
-    display: flex;
-    align-items: center;
-}
-
-.header-menu {
-    display: flex;
-    gap: 40px;
-    padding-right: 332px;
 }
 
 .header-menu-item {}
@@ -110,7 +109,6 @@ a {
 
 .header-address {
     font-style: normal;
-    padding: 24px 0 24px;
 }
 
 .header-address-menu {
