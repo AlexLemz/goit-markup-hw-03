@@ -58,18 +58,11 @@ a {
 .header {
     border-bottom: 1px solid #E7E9FC;
     background: #FFF;
-    padding: 24px 0;
 }
 
 .header-nav {
     display: flex;
     align-items: center;
-}
-
-.header-menu {
-    display: flex;
-    gap: 40px;
-    padding-right: 332px;
 }
 
 .header-logo {
@@ -89,6 +82,13 @@ a {
 
 .header-container {
     display: flex;
+}
+
+.header-menu {
+    display: flex;
+    gap: 40px;
+    padding-right: 332px;
+    padding: 24px 0;
 }
 
 .header-menu-item {}
